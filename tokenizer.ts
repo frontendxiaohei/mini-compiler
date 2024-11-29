@@ -1,5 +1,5 @@
-type Token = {
-    type: "paren" | "name" | "number"
+export type Token = {
+    type: "paren" | "name" | "number" | string
     value: string
 }
 
